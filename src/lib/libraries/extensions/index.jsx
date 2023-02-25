@@ -54,7 +54,7 @@ export default [
         name: (
             <FormattedMessage
                 defaultMessage="ChatGPT"
-                description="自由におしゃべるができるブロック"
+                description="いろいろ質問ができます"
                 id="gui.extension.chatgpt.name"
             />
         ),
@@ -64,7 +64,7 @@ export default [
         description: (
             <FormattedMessage
                 defaultMessage="ChatGPT"
-                description="自由におしゃべりがd系るよ"
+                description="様々な質問ができます。"
                 id="gui.extension.chatgpt.description"
             />
         ),
