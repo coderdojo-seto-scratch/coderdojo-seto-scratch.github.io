@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import chatgptIconUrl from './chatgpt/ChatGPT.png';
+import chatgptInsetIconUrl from './chatgpt/ChatGPTSmall.png';
+
 export default [
     {
         name: (
@@ -56,8 +59,8 @@ export default [
             />
         ),
         extensionId: 'chatgpt',
-        iconURL: text2speechIconURL,
-        insetIconURL: text2speechInsetIconURL,
+        iconURL: chatgptIconUrl,
+        insetIconURL: chatgptInsetIconUrl,
         description: (
             <FormattedMessage
                 defaultMessage="ChatGPT"
