@@ -50,6 +50,26 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="ChatGPT"
+                description="自由におしゃべるができるブロック"
+                id="gui.extension.chatgpt.name"
+            />
+        ),
+        extensionId: 'chatgpt',
+        iconURL: text2speechIconURL,
+        insetIconURL: text2speechInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="ChatGPT"
+                description="自由におしゃべりがd系るよ"
+                id="gui.extension.chatgpt.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
