@@ -46,26 +46,26 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import chatgptIconUrl from './chatgpt/ChatGPT.png';
-import chatgptInsetIconUrl from './chatgpt/ChatGPTSmall.png';
+import gpt3IconUrl from './gpt3/Gpt3.png';
+import gpt3InsetIconUrl from './gpt3/Gpt3Small.png';
 
 export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="ChatGPT"
-                description="いろいろ質問ができます"
-                id="gui.extension.chatgpt.name"
+                defaultMessage="GPT-3"
+                description="Description for GPT32Scratch Blocks"
+                id="gui.extension.gpt3.name"
             />
         ),
-        extensionId: 'chatgpt',
-        iconURL: chatgptIconUrl,
-        insetIconURL: chatgptInsetIconUrl,
+        extensionId: 'gpt3',
+        iconURL: gpt3IconUrl,
+        insetIconURL: gpt3InsetIconUrl,
         description: (
             <FormattedMessage
-                defaultMessage="ChatGPT"
-                description="様々な質問ができます。"
-                id="gui.extension.chatgpt.description"
+              defaultMessage="GPT32Scratch Blocks."
+                description="Description for GPT32Scratch Blocks"
+                id="gui.extension.gpt3.description"
             />
         ),
         featured: true
